@@ -1,0 +1,132 @@
+/*  font-family: 'Oswald', sans-serif;*/   /*Oswald for normal text*/
+
+/*  font-family: 'Raleway', sans-serif;*/ /*Railway for headers and bolded text*/
+
+/*#65b1d4 color for background image*/
+
+
+Body {
+    background-color:#65b1d4;
+    background-image: url(../images/shattered-dark.png);
+    background-attachment: fixed;
+    margin: auto;
+    padding: 0;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+
+header {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    background-color: #749fb3;
+    margin-top: 0;
+}
+
+
+main {
+    padding: 2%;
+    font-family: 'Oswald', sans-serif;
+    max-width: 900px;
+    margin: auto;
+}
+
+
+footer {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+h1 {
+    font-size: 3em;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 2em;
+    margin-top: .1em;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    border: solid #749fb3; 
+    padding: 1em;  
+}
+
+li {
+    display: inline;
+    padding: 10px;
+    border: solid black;
+    font-size: 1.3em;
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#timeline {
+    background-color: #749fb3;
+    text-align: left;
+    border: solid 2px;
+    padding: 1%;
+}
+
+.conart {
+
+    padding-right: 5%;
+    padding-top: 3%;
+}
+
+.numbered {
+    display: list-item;
+    border: none;
+}
+
+#quote {
+    max-width: 300px;
+    margin: 1em;
+    margin-top: 0;
+    border: 2px solid #050505;
+    padding: 1em;
+    background-color: #749fb3;
+}
+
+footer {
+    clear: left;
+    clear: right;
+    background-color: #749fb3;
+    text-align: center;
+    margin: auto;
+    padding: 1em;
+}
+
+/*-------------------------------pictures---------------------------------------------*/
+
+
+#aleft {
+    float: left;
+    margin: 1em;
+    border: 2px solid #050505;
+    padding: 1em;
+    background-color: #749fb3;
+}
+
+#aright {
+    float: right;
+    margin: 1em;
+    border: 2px solid #050505;
+    padding: 1em;
+    background-color: #749fb3;
+}
+
+#aright2 {
+    float: right;
+    margin: 1em;
+    border: 2px solid #050505;
+    padding: 1em;
+    background-color: #749fb3;
+}
